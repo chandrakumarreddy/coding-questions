@@ -17,6 +17,12 @@ p.then(() => {
     console.log("finally");
   });
 
+
+solution: e1 p3 finally
+
+-----------------------------------
+
+
 var x = 3;
 var char = "A";
 
@@ -35,6 +41,10 @@ var go = foo.foo.foo;
 console.log(char, go(), foo.foo.foo());
 console.log( go(), foo.foo.foo(), char);
 
+solution: A 3 1, 3 1 B
+
+-------------------------------------
+
 var x = 10;
 var y = 20;
 var z = 30;
@@ -52,6 +62,10 @@ function foo() {
 
 var bar = foo();
 console.log(bar(50));
+
+solution: 110
+
+------------------------------
 
 
 1. Coding question :- parenthesis matching
